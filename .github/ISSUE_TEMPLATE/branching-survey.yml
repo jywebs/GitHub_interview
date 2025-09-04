@@ -1,0 +1,177 @@
+name: Branching Strategy Input Survey
+description: Help us decide on a standard branching approach by answering these questions.
+title: "Branching Survey: [Team Name]"
+labels: ["survey", "branching-strategy"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Release Cadence & Delivery
+
+  - type: dropdown
+    id: release_frequency
+    attributes:
+      label: How often does your team typically release to production?
+      options:
+        - Daily
+        - Weekly
+        - Monthly
+        - Quarterly or less
+    validations:
+      required: true
+
+  - type: dropdown
+    id: multi_version
+    attributes:
+      label: Do you need to support multiple versions of the product in production at the same time?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+
+  - type: input
+    id: version_support_length
+    attributes:
+      label: If yes, how long do you support each version? (e.g., 3 months, 1 year, etc.)
+
+  - type: dropdown
+    id: stabilization
+    attributes:
+      label: Do you require a separate hardening/stabilization period before release?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Team Workflow & Practices
+
+  - type: dropdown
+    id: feature_flags
+    attributes:
+      label: Does your team use feature flags/toggles for incomplete work?
+      options:
+        - Yes, regularly
+        - Occasionally
+        - Not at all
+    validations:
+      required: true
+
+  - type: dropdown
+    id: test_confidence
+    attributes:
+      label: How confident are you in your automated test coverage?
+      options:
+        - Very confident – green build = releasable
+        - Somewhat confident – still need manual checks
+        - Low confidence – rely heavily on manual QA
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Risk & Compliance
+
+  - type: dropdown
+    id: compliance
+    attributes:
+      label: Are there compliance or audit requirements that mandate staged approvals before release?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+
+  - type: dropdown
+    id: hotfixes
+    attributes:
+      label: How do you currently handle hotfixes?
+      options:
+        - Hotfix branch
+        - Directly to main
+        - Other (please describe)
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Organizational Scale & Coordination
+
+  - type: dropdown
+    id: repo_committers
+    attributes:
+      label: How many developers typically commit to the same repo at once?
+      options:
+        - 1–5
+        - 6–15
+        - 16+
+    validations:
+      required: true
+
+  - type: dropdown
+    id: multi_team
+    attributes:
+      label: Do multiple teams contribute to the same codebase simultaneously?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Tooling & Enforcement
+
+  - type: dropdown
+    id: branch_protection
+    attributes:
+      label: Does your repo already enforce branch protections (e.g., required PRs, checks, merge queue)?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+
+  - type: dropdown
+    id: release_process
+    attributes:
+      label: Do you have a standardized process for tagging releases and writing release notes?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Final Thoughts
+
+  - type: textarea
+    id: challenges
+    attributes:
+      label: What do you see as the biggest challenge with your current branching model?
+
+  - type: textarea
+    id: preserve
+    attributes:
+      label: What would you want to preserve if we switch models?
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Any other feedback we should consider?
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        Thank you for your input! Your responses will help us decide on a standard branching approach that balances speed, quality, and control.

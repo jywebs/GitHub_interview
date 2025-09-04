@@ -35,6 +35,9 @@ You should be prepared to answer all **three technical questions**, written as t
 
 **Q1:**  
 *We’re trying to standardize our branching strategies across teams. Team A is currently doing Git flow while Team B is doing Trunk-based Development. Which one is better? Which one should we pick?*
+[Q1/README.md](Question 1 Research)
+[Q1/Trunk_Response.md]()
+
 
 **Q2:**  
 *We currently have Jenkins OSS in house with each team managing their own instance. Can we migrate them to GitHub Actions ASAP? We use a standard set of plugins for interacting with our AWS and Azure environments for deployments.*
