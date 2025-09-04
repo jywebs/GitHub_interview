@@ -41,6 +41,8 @@ You should be prepared to answer all **three technical questions**, written as t
 
 **Q2:**  
 *We currently have Jenkins OSS in house with each team managing their own instance. Can we migrate them to GitHub Actions ASAP? We use a standard set of plugins for interacting with our AWS and Azure environments for deployments.*
+[Question 2 Research](Q2/README.md)
+[JenkinsOSS to GH actions email response](Q2/JenkinsOSS_GH_Actions_email.md)
 
 **Q3:**  
 *We want to backup our cloud hosted Git repos to an internally, self-hosted git server, so that we can backup the cloud repos. How would we go about setting up a one way repo sync between the two?*
