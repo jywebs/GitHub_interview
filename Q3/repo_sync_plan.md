@@ -219,8 +219,10 @@ done
 
 Happy to set up a short pilot this week, then roll to the full org. I would be glad to meet to discuss details, answer any questions, and help create the project plan and runbook for this migration.
 
-Thanks,  
-Jacy
+Best,  
+Jacy York
+Customer Solutions Architect
+GitHub
 
 ---
 

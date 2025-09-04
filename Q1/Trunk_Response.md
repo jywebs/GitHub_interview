@@ -76,4 +76,5 @@ I would be happy to meet with you to discuss these points in detail, answer any 
 
 Best,  
 Jacy York
-Customer Solutions Architect, GitHub
+Customer Solutions Architect
+GitHub
