@@ -44,6 +44,14 @@ Do you have a standardized approach to tagging releases and managing release not
 Optional Survey:
 # Branching Strategy Input Survey
 
+## Github Issues Form
+### Branching Strategy Survey
+
+We’re collecting input on which branching model fits our teams best.  
+👉 [Fill out the Branching Strategy Survey](https://github.com/<OWNER>/<REPO>/issues/new?template=branching-survey.yml)
+
+
+## MarkDown Version
 We are evaluating whether **Trunk-Based Development (TBD)** or **Gitflow** is the best standard branching model for our teams.  
 Please take a few minutes to answer these questions based on your team’s current practices and needs.
 
