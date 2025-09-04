@@ -3,6 +3,9 @@ Contains the research and potential clarifying questions for Email response Ques
 # Question 1:
 We’re trying to standardize our branching strategies across teams. Team A is currently doing Git flow while Team B is doing Trunk-based Development. Which one is better? Which one should we pick?
 
+## Answer:
+[Trunk-Based vs Git Flow Development Recommendation](Trunk_Response.md)
+
 # Clarifying Questions:
 
 ## Release cadence & delivery

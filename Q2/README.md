@@ -4,7 +4,8 @@ Contains the research and potential clarifying questions for Email response Ques
 *We currently have Jenkins OSS in house with each team managing their own instance. Can we migrate them to GitHub Actions ASAP? We use a standard set of plugins for interacting with our AWS and Azure environments for deployments.*
 
 ## Quick Answer:
-Yes, migrating to GitHub Actions is both feasible and can be executed quickly with the right approach. Below is how I recommend we move forward, along with what “ASAP” looks like in practical terms.
+Yes, migrating to GitHub Actions is both feasible and can be executed quickly with the right approach. Below is how I recommend we move forward, along with what “ASAP” looks like in practical terms.  
+[Migration from Jenkins OSS to GitHub Actions – Feasibility and Path Forward](JenkinsOSS_GH_Actions_email.md)
 
 ## Top 10 Clarifying Questions – With Risks Addressed
 

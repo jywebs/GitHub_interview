@@ -4,7 +4,7 @@ Contains the research and potential clarifying questions for Email response Ques
 *We want to backup our cloud hosted Git repos to an internally, self-hosted git server, so that we can backup the cloud repos. How would we go about setting up a one way repo sync between the two?*
 
 ## Answer:
-[Repo Sync Plan Email](repo_sync_plan.md)
+[Internal Read-Only Mirror of my GitHub cloud Repositories](repo_sync_plan.md)
 
 ## Clarifying Questions & Research for One-Way Git Repo Sync
 
