@@ -55,7 +55,7 @@ You should be prepared to answer all **three technical questions**, written as t
 **Q3:**  
 *We want to backup our cloud hosted Git repos to an internally, self-hosted git server, so that we can backup the cloud repos. How would we go about setting up a one way repo sync between the two?*
 
-[Question 3 Research](Q3/README.md)
+[Question 3 Research](Q3/README.md) 
 [Internal Read-Only Mirror of my GitHub cloud Repositories](Q3/repo_sync_plan.md)
 
 ---
