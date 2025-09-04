@@ -4,7 +4,7 @@ Technical Interview – Q2 Email-Style Answer
 
 **Subject:** Migration from Jenkins OSS to GitHub Actions – Feasibility and Path Forward 
 
-Hi <Name>,
+Hi `<Name>`,
 
 Yes, migrating to GitHub Actions is both feasible and can be executed quickly with the right approach. Below is how I recommend we move forward, along with what “ASAP” looks like in practical terms.
 

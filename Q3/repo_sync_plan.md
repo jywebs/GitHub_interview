@@ -3,7 +3,7 @@ Technical Interview – Question 3 Email style answer
 ---
 Subject: Internal Read-Only Mirror of my GitHub cloud Repositories 
 
-Hi <Name>,
+Hi `<Name>`,
 
 As I understand it the goal of this project is to create a read-only mirror on-prem for backup, DR, and compliance.
 Below I am outlining two practical approachs to create a reliable, one-way sync from your cloud-hosted Git provider (assume GitHub.com) to an internally hosted Git server. You can adopt either, or even run both for belt-and-suspenders resiliency.

@@ -3,7 +3,7 @@ Technical Interview – Q1 Email-Style Answer
 
 **Subject**: Trunk-Based vs Git Flow Development Recommendation 
 
-Hi <Name>>,
+Hi `<Name>>`,
 
 **Short answer:** choose **Trunk-based Development (TBD)** as the organization default. It optimizes for flow, faster feedback, and lower merge risk. Keep a lightweight release branch when you need stabilization or hotfixes. Use Gitflow only if you ship infrequent, versioned releases to external customers where parallel maintenance of many versions is required.
 
