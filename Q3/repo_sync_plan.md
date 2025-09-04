@@ -1,4 +1,7 @@
-# Subject: Plan to set up a one-way, automated mirror of our cloud Git repos to an internal server
+Technical Interview – Question 3 Email style answer
+
+---
+Subject: Internal Read-Only Mirror of my GitHub cloud Repositories 
 
 Hi <Name>,
 
@@ -220,8 +223,8 @@ done
 Happy to set up a short pilot this week, then roll to the full org. I would be glad to meet to discuss details, answer any questions, and help create the project plan and runbook for this migration.
 
 Best,  
-Jacy York
-Customer Solutions Architect
+Jacy York 
+Customer Solutions Architect 
 GitHub
 
 ---

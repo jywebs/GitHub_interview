@@ -1,7 +1,8 @@
-# Technical Interview – Q2 Email-Style Answer
+Technical Interview – Q2 Email-Style Answer
+
 ---
 
-**Subject:** Migration from Jenkins OSS to GitHub Actions – Feasibility and Path Forward
+**Subject:** Migration from Jenkins OSS to GitHub Actions – Feasibility and Path Forward 
 
 Hi <Name>,
 
@@ -93,6 +94,6 @@ I would be happy to meet with you to discuss these points in detail, answer any 
 
 ---
 Best,  
-Jacy York
-Customer Solutions Architect
+Jacy York 
+Customer Solutions Architect 
 GitHub
