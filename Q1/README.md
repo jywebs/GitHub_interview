@@ -48,7 +48,7 @@ Optional Survey:
 ### Branching Strategy Survey
 
 We’re collecting input on which branching model fits our teams best.  
-👉 [Fill out the Branching Strategy Survey](https://github.com/<OWNER>/<REPO>/issues/new?template=branching-survey.yml)
+👉 [Fill out the Branching Strategy Survey](https://github.com/jywebs/GitHub_interview/issues/new?template=branching-survey.yml)
 
 
 ## MarkDown Version
