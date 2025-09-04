@@ -1,12 +1,12 @@
 name: Branching Strategy Input Survey
-description: Help us decide on a standard branching approach by answering these questions.
+description: "Help us decide on a standard branching approach by answering these questions."
 title: "Branching Survey: [Team Name]"
 labels: ["survey", "branching-strategy"]
 
 body:
   - type: markdown
     attributes:
-      value: |
+      value: "|"
         ## Release Cadence & Delivery
 
   - type: dropdown
