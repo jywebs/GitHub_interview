@@ -3,54 +3,58 @@ Contains the research and potential clarifying questions for Email response Ques
 # Question 1:
 We’re trying to standardize our branching strategies across teams. Team A is currently doing Git flow while Team B is doing Trunk-based Development. Which one is better? Which one should we pick?
 
+# Clarifying Questions:
+
 ## Release cadence & delivery
 
-How often do your teams aim to release to production (daily, weekly, monthly, quarterly)?
+- How often do your teams aim to release to production (daily, weekly, monthly, quarterly)?
 
-Do you need to support multiple versions of the product in production at the same time? For how long?
+- Do you need to support multiple versions of the product in production at the same time? For how long?
 
-Are there contractual or regulatory requirements that force you to harden/stage code before release?
+- Are there contractual or regulatory requirements that force you to harden/stage code before release?
 
 ## Team workflow & practices
 
-How comfortable are teams with feature flags or toggles to manage incomplete work?
+- How comfortable are teams with feature flags or toggles to manage incomplete work?
 
-How mature is your automated test coverage — can you reliably trust green builds to mean “safe to deploy”?
+- How mature is your automated test coverage — can you reliably trust green builds to mean “safe to deploy”?
 
-Do teams practice CI (every commit to main is tested and integrated) or rely on longer QA cycles?
+- Do teams practice CI (every commit to main is tested and integrated) or rely on longer QA cycles?
 
 ## Risk & compliance
 
-Are there strict compliance checks or audits that require staged sign-offs before code reaches production?
+- Are there strict compliance checks or audits that require staged sign-offs before code reaches production?
 
-How do you currently manage hotfixes — do you need an isolated hotfix branch, or can urgent fixes land directly in main?
+- How do you currently manage hotfixes — do you need an isolated hotfix branch, or can urgent fixes land directly in main?
 
 ## Organizational scale & coordination
 
-How many developers typically contribute to a repo at the same time?
+- How many developers typically contribute to a repo at the same time?
 
-Do multiple teams work in parallel on the same product, or are teams mostly siloed to their own services?
+- Do multiple teams work in parallel on the same product, or are teams mostly siloed to their own services?
 
-Is onboarding to the current branching model a barrier for new contributors?
+- Is onboarding to the current branching model a barrier for new contributors?
 
 ## Tooling & enforcement
 
-Do you already have GitHub branch protections, merge queues, and CI/CD pipelines in place?
+- Do you already have GitHub branch protections, merge queues, and CI/CD pipelines in place?
 
-Do you have a standardized approach to tagging releases and managing release notes?
+- Do you have a standardized approach to tagging releases and managing release notes?
 
 ---
 
 Optional Survey:
+
 # Branching Strategy Input Survey
 
 ## Github Issues Form
+
 ### Branching Strategy Survey
 
 We’re collecting input on which branching model fits our teams best.  
 👉 [Fill out the Branching Strategy Survey](https://github.com/jywebs/GitHub_interview/issues/new?template=branching-survey.yml)
 
-
+--- 
 ## MarkDown Version
 We are evaluating whether **Trunk-Based Development (TBD)** or **Gitflow** is the best standard branching model for our teams.  
 Please take a few minutes to answer these questions based on your team’s current practices and needs.
