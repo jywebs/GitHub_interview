@@ -8,20 +8,26 @@ This repository contains my preparation materials for the GitHub Custom Solution
 
 Your interview will consist of **three sessions**:
 
-### 1. Manager Interview – 45 minutes  
-Focus:  
+### 1. Manager Interview – 45 minutes 
+
+Focus: 
+
 - Collaboration  
 - Consultative skills  
 - Customer relationship management  
 
 ### 2. Business & Culture Fit Interview – 45 minutes  
-Focus:  
+
+Focus:
+
 - Communication style  
 - Core values  
 - Alignment with GitHub’s mission and culture  
 
-### 3. Technical Interview & Panel Presentation – 60 minutes  
+### 3. Technical Interview & Panel Presentation – 60 minutes
+
 Focus:  
+
 - Technical deep dive  
 - Candidate-led panel presentation  
 
@@ -35,17 +41,22 @@ You should be prepared to answer all **three technical questions**, written as t
 
 **Q1:**  
 *We’re trying to standardize our branching strategies across teams. Team A is currently doing Git flow while Team B is doing Trunk-based Development. Which one is better? Which one should we pick?*
+
 [Question 1 Research](Q1/README.md)
 [TBD_Development Style Response](Q1/Trunk_Response.md)
 
 
 **Q2:**  
 *We currently have Jenkins OSS in house with each team managing their own instance. Can we migrate them to GitHub Actions ASAP? We use a standard set of plugins for interacting with our AWS and Azure environments for deployments.*
+
 [Question 2 Research](Q2/README.md)
 [JenkinsOSS to GH actions email response](Q2/JenkinsOSS_GH_Actions_email.md)
 
 **Q3:**  
 *We want to backup our cloud hosted Git repos to an internally, self-hosted git server, so that we can backup the cloud repos. How would we go about setting up a one way repo sync between the two?*
+
+[Question 3 Research](Q3/README.md)
+[Question 3 email response](Q3/repo_sync_plan.md)
 
 ---
 
