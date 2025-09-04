@@ -1,12 +1,12 @@
 name: Branching Strategy Input Survey
-description: "Help us decide on a standard branching approach by answering these questions."
+description: Help us decide on a standard branching approach by answering these questions.
 title: "Branching Survey: [Team Name]"
 labels: ["survey", "branching-strategy"]
 
 body:
   - type: markdown
     attributes:
-      value: "|"
+      value: |
         ## Release Cadence & Delivery
 
   - type: dropdown
@@ -26,8 +26,8 @@ body:
     attributes:
       label: Do you need to support multiple versions of the product in production at the same time?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
@@ -41,8 +41,8 @@ body:
     attributes:
       label: Do you require a separate hardening/stabilization period before release?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
@@ -83,8 +83,8 @@ body:
     attributes:
       label: Are there compliance or audit requirements that mandate staged approvals before release?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
@@ -98,6 +98,11 @@ body:
         - Other (please describe)
     validations:
       required: true
+
+  - type: input
+    id: hotfixes_other
+    attributes:
+      label: If "Other", please describe your hotfix process (optional)
 
   - type: markdown
     attributes:
@@ -120,8 +125,8 @@ body:
     attributes:
       label: Do multiple teams contribute to the same codebase simultaneously?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
@@ -135,8 +140,8 @@ body:
     attributes:
       label: Does your repo already enforce branch protections (e.g., required PRs, checks, merge queue)?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
@@ -145,8 +150,8 @@ body:
     attributes:
       label: Do you have a standardized process for tagging releases and writing release notes?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 

@@ -35,8 +35,8 @@ You should be prepared to answer all **three technical questions**, written as t
 
 **Q1:**  
 *We’re trying to standardize our branching strategies across teams. Team A is currently doing Git flow while Team B is doing Trunk-based Development. Which one is better? Which one should we pick?*
-[Q1/README.md](Question 1 Research)
-[Q1/Trunk_Response.md]()
+[Question 1 Research](Q1/README.md)
+[TBD_Development Style Response](Q1/Trunk_Response.md)
 
 
 **Q2:**  
