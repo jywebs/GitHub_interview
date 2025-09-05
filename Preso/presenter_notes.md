@@ -114,7 +114,7 @@ As I look ahead, I don’t see AI replacing developers—I see AI elevating deve
 
 **Closing Thoughts:**  
 
-- GitHubs stated mission is "Empowering developers to build better software, faster." and that is just what Copilot enables developers to do  
+- GitHub's stated mission is "Empowering developers to build better software, faster." and that is just what Copilot enables developers to do  
 - So the real question isn’t whether AI saves time — it’s how we reinvest the time it saves.  
 
 **Additional talking points:**

@@ -10,6 +10,7 @@ Hi `<Name>`,
 ---
 
 ## Why TBD Wins for Most Teams
+
 - Smaller batches and frequent integration reduce merge debt and rework.  
 - CI runs on every change, so defects surface earlier and are cheaper to fix.  
 - Simpler branch model improves contributor onboarding and cross-team collaboration.  
@@ -18,6 +19,7 @@ Hi `<Name>`,
 ---
 
 ## When Gitflow Can Be Appropriate
+
 - You publish packaged, versioned artifacts on a fixed cadence and must maintain several supported versions in parallel.  
 - Releases are batched with planned hardening windows, and regulatory sign-offs happen on a release branch.  
 - You accept the operational cost of long-lived branches and more complex merges in exchange for strict release staging.  
@@ -25,12 +27,14 @@ Hi `<Name>`,
 ---
 
 ## Decision Guide
+
 - **Pick TBD** if most of these are true: you deploy often, value fast feedback, have strong automated tests, rely on feature flags for incomplete work, and want fewer merge conflicts.  
 - **Consider Gitflow** if most are true: you release quarterly or less, must harden on a release branch, support many customer versions at once, and have change-control gates that cannot run on main.  
 
 ---
 
 ## Recommended Model (TBD with Lightweight Releases)
+
 1. Developers branch from `main` for short-lived feature branches.  
 2. Open small PRs, target < 1–3 days of work.  
 3. Protect `main` with required checks: status checks green, code review, conversation resolved, linear history, and a merge queue.  
@@ -41,6 +45,7 @@ Hi `<Name>`,
 ---
 
 ## How to Set This Up on GitHub
+
 - **Branch protection:** require PRs, required reviewers, required status checks, and signed commits if needed.  
 - **Merge queue:** enable to serialize merges and keep `main` green under load.  
 - **CODEOWNERS:** route reviews automatically.  
@@ -51,6 +56,7 @@ Hi `<Name>`,
 ---
 
 ## Migration from Gitflow to TBD (Incremental and Low Risk)
+
 1. Freeze creation of new long-lived branches. New work branches from `main` only.  
 2. Introduce feature flags to avoid long-running work on branches.  
 3. Tighten CI gates and add a merge queue on `main`.  
@@ -61,6 +67,7 @@ Hi `<Name>`,
 ---
 
 ## Common Concerns
+
 - **“We need stabilization.”** Use a short-lived release branch with cherry-picks and keep `main` moving.  
 - **“We have big features.”** Slice into vertical increments and hide incomplete paths behind flags.  
 - **“We must support old customers.”** Maintain only N active release branches with clear EOL dates.  
@@ -78,6 +85,6 @@ I would be happy to meet with you to discuss these points in detail, answer any 
 ---
 
 Best,  
-Jacy York 
-Customer Solutions Architect 
+Jacy York  
+Customer Solutions Architect  
 GitHub
