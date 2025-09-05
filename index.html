@@ -2,8 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>How AI Tools Improve Productivity in Development Workflows</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How AI Tools Improve Productivity in Development Workflo    <!-- Slide 1: Title -->
+    <div id="title" class="s    <!-- Slide 4: Guardrails & Oversight -->
+    <div id="guardrails" class="step" data-x="9000" data-y="0" data-scale="1" data-z="-1000">
+      <div class="caps">Balance</div>
+      <h2>Guardrails & Oversight</h2>
+      <ul>
+        <li>Validate AI outputs against team standards</li>
+        <li>Prevent inconsistency and tech debt with reviews and tests</li>
+        <li>Build trust with human-in-the-loop and clear usage guidelines</li>
+      </ul>
+      <div class="center" style="margin-top:14px">
+        <img class="icon" style="height:460px" src="Preso/assets/slide4_guardrails-triangle.png" alt="Quality · Maintainability · Trust">
+      </div>
+    </div>
+
+    <!-- Slide 5: Looking Ahead / Closing -->
+    <div id="closing" class="step" data-x="12000" data-y="0" data-scale="1" data-z="-1000">data-y="0" data-scale="1" data-z="-1000">
+      <div class="caps">Presentation</div>
+      <h1>How AI Tools Improve Productivity<br>in Development Workflows</h1>
+      <p class="lead">A focused story: personal experience → industry impact → guardrails → what's next.</p>
+    </div>
+
+    <!-- Slide 2: My Experience with Copilot -->
+    <div id="experience" class="step" data-x="3000" data-y="0" data-scale="1" data-z="-1000">
+      <div class="caps">Personal example</div>
+      <h2>My Experience with Copilot</h2>
+      <div class="center" style="margin-top:14px">
+        <img class="icon" style="height:460px" src="Preso/assets/slide2_copilot.png" alt="Copilot in action">
+      </div>
+    </div>
+
+    <!-- Slide 3: Strategic Impact (merge evidence + outcomes) -->
+    <div id="impact" class="step" data-x="6000" data-y="0" data-scale="1" data-z="-1000"> name="viewport" content="width=device-width, initial-scale=1" />
   <!-- Impress.js -->
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/js/impress.min.js" as="script">
   <style>
@@ -23,6 +54,10 @@ html, body {
   margin: 0;
 }
 
+#impress {
+  position: relative;
+}
+
 .step {
   width: 1100px;
   padding: 48px 56px;
@@ -30,6 +65,17 @@ html, body {
   background: var(--panel);
   box-shadow: 0 8px 40px rgba(0,0,0,.5);
   transition: all 0.5s ease;
+  opacity: 0.3;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Ensure proper slide scaling */
+body {
+  overflow: hidden;
+  min-height: 100vh;
 }
 
 h1, h2 {
