@@ -220,12 +220,15 @@ done
 
 ---
 
-Happy to set up a short pilot this week, then roll to the full org. I would be glad to meet to discuss details, answer any questions, and help create the project plan and runbook for this migration.
+Happy to help set up a short pilot this week, then when you are happy with the results you can roll it out to the full org.  
+I would be glad to meet to discuss details, answer any questions, and help create the project plan and runbook for this migration.
 
 Best,  
 Jacy York  
 Customer Solutions Architect  
-GitHub  
+jacy.york@github.com  
+
+<img src="../Preso/assets/GitHub_logo.png" alt="drawing" width="100"/>
 
 ---
 

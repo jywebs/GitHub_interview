@@ -98,11 +98,13 @@ jobs:
 3. Select pilot repositories for lift-and-shift migrations.
 4. Stand up runners in GitHub-hosted and private environments.
 
-With this phased approach, we can begin pilots as early as this week and target full cutover within 4–6 weeks.
+With this phased approach, we can begin pilots as early as this week and target full cutover within 4–6 weeks, which is agressive but possible.
 I would be happy to meet with you to discuss these points in detail, answer any questions you may have, and help create a project plan for this important migration.
 
 ---
 Best,  
 Jacy York  
 Customer Solutions Architect  
-GitHub  
+jacy.york@github.com  
+
+<img src="../Preso/assets/GitHub_logo.png" alt="drawing" width="100"/>

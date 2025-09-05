@@ -87,4 +87,7 @@ I would be happy to meet with you to discuss these points in detail, answer any 
 Best,  
 Jacy York  
 Customer Solutions Architect  
-GitHub
+jacy.york@github.com   
+
+<img src="../Preso/assets/GitHub_logo.png" alt="drawing" width="100"/>
+
