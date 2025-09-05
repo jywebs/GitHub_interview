@@ -1,7 +1,8 @@
 # Presenter Notes – How AI Tools Improve Productivity in Development Workflows
 
 ## Slide 1: Introduction
-Thanks so much for the opportunity to be here.  
+
+Thank you so much for the opportunity to meet with you today.  
 When we think about AI in software development, the real story isn’t about replacing developers—it’s about freeing them from repetitive work so they can focus on the problems that matter.  
 
 **Today I’ll walk through:**
@@ -10,36 +11,38 @@ When we think about AI in software development, the real story isn’t about rep
 - What the data shows about AI’s impact,
 - And how all of this translates into strategic outcomes for teams and customers.
 
+**Point of note** - This is not a technical demo—it’s about impact and strategy.
+
 **Additional talking points:**
 
-- Set expectations: “This is not a technical demo—it’s about impact and strategy.”
-- Remind audience of the framing question: *How can AI tools improve productivity in development workflows?*
+~~- Remind audience of the framing question: *How can AI tools improve productivity in development workflows?*~~
 
 ---
 
 ## Slide 2: My Experience with Copilot
 
-The current fear in the industry is that AI is coming for all of our jobs - **especially developers**.  
+If you have anything to do with media today you have probably seen news articals saying something to the effect of - AI is coming for all of our jobs - **especially developers**.  
 To me, AI isn’t about replacing developers. It’s about removing friction so they can focus on higher-value work.  
 
-Before preparing for this process with GitHub, I mainly used GitHub as just the Git repository UI. But I wanted to dive deeper into features I would use if I were starting fresh today.  
+Before starting this process with GitHub, my experiance with GitHub was like, what I suspect many enterprise users is - just using GitHub as the Git repository UI.  
+As part of preparing for this journey with GitHub, I wanted to dive deeper into features I would use if I were starting fresh, with a new product, company or just in the industry today.  
 
-The feature I prioritized was **GitHub Copilot**. Because if you’re not using some kind of AI today, you’re getting left behind.  
+The feature I choose to prioritize getting comfortable with is **GitHub Copilot**. Because if you’re not using some kind of AI in your development workflow today, you’re getting left behind.  
 
-I found that Copilot gave me three things quickly that used to take hours:
+I found out that Copilot gave me three things quickly that used to take me hours and were the least enjoyable in my daily tasks:
 
-1. **Scaffolding** – After I created a PRD, Copilot built my codebase structure and base files in seconds.  
-2. **Unit tests** – Once I had the core code written, Copilot generated tests. This replaced a task often done under time pressure at 2am just to get a PR approved.  
-3. **Automation** – Copilot created my Dockerfile and GitHub Actions workflow quickly and efficiently.  
+1. **Scaffolding** – After I created a PRD for my test project, I asked Copilot to built my codebase structure and base files and it did so accurately in seconds.  
+2. **Unit tests** – Once I had the core code written, I used the Copilot chat and asked it to generate my unit tests. This replaced a task often done with frustration and many, many itterations.  
+3. **Automation** – I told Copilot to create my Dockerfile and associated GitHub Actions workflow to build and push that docker container to my DockerHub and it did so quickly and efficiently.  
 
-As I experimented more, I realized it could also help solve issues I documented in my repo. Honestly, it made me wish I had Copilot next to me on those 3 a.m. pager calls when a hotfix was needed 20 minutes ago.  
+As I experimented more, I realized it could also help solve issues I documented in my repo (**espically in agent mode**). I did find that the better the issue was documented the better the resulting fix was. Honestly, it made me wish I had Copilot next to me on those 3 a.m. pager calls when a hotfix was needed 20 minutes ago.  
 
-**Takeaway:** Copilot isn’t replacing developers—it’s like a sidecar, giving us leverage while we keep our hands on the wheel.  
+**Takeaway:** Copilot isn’t replacing developers — it’s more like a sidecar, giving developers leverage while allowing them to keep our hands on the wheel.  
 
 **Additional talking points:**
 
 - Mention how this experience pushed you beyond the “just Git UI” perception of GitHub.
-- Add your meta-example: *Using Copilot, I even built this presentation deck with impress.js and deployed it on GitHub Pages.*
+- *leave for closing* - ~~Add your meta-example: *Using Copilot, I even built this presentation deck with impress.js and deployed it on GitHub Pages.*~~
 
 ---
 
@@ -54,14 +57,17 @@ A GitHub study found developers completed coding tasks about **55% faster** with
 - **Stronger resilience** through better testing coverage.  
 - **Better developer experience** which translates into higher morale and retention.  
 
-**Key Point:** AI isn’t just saving time—it’s changing *where* that time gets invested.  
+**Key Points:** 
+
+- These impacts are not just to the developers but to the business as a whole
+- AI isn’t just saving time—it’s changing *where* that time gets invested  
 
 **Source:** GitHub Copilot study [arXiv: 2302.06590](https://arxiv.org/abs/2302.06590)  
 
 **Additional talking points:**
 
 - Reinforce “time saved vs. time reinvested” theme.  
-- If pressed for metrics: Reference Atlassian and Microsoft studies showing ~10 hours saved per developer per week.  
+- If pressed for metrics: Reference [Atlassian recent study](https://www.techradar.com/pro/ai-is-helping-developers-save-time-but-the-struggle-to-find-timely-information-is-costing-businesses-millions) and [Microsoft 2025 Study](https://www.itpro.com/software/development/microsoft-claims-ai-is-augmenting-developers-rather-than-replacing-them) studies showing ~10 hours saved per developer per week.  
 - Tie to customer impact: “This isn’t just a developer story—it’s a business story.”
 
 ---
@@ -98,17 +104,20 @@ As I look ahead, I don’t see AI replacing developers—I see AI elevating deve
 **What AI does best:** Handling repetitive, low-value tasks like scaffolding, boilerplate, unit tests, and workflows.  
 **What developers do best:** Problem-solving, system design, and delivering customer value.  
 
-**Partnership = two outcomes:**  
+**Partnership with AI = two outcomes:**  
 
-- **Productivity gains today** → faster delivery, shorter cycle times.  
-- **Strategic gains tomorrow** → higher satisfaction, stronger retention, a culture focused on creativity over toil.  
+- **Productivity gains today** → faster delivery, shorter development cycle times.  
+- **Strategic gains tomorrow** → higher employee satisfaction, stronger retention, a culture focused on **creativity over toil**  
 
-**Closing Thought:** The real question isn’t whether AI saves time—it’s how we reinvest the time it saves.  
+**meta-example:** “This very presentation was built with the aid of GitHub Copilot and published using GitHub Pages quickly and efficency with only limited knowledge of javascript — to me that’s AI productivity in action.”  
+
+**Closing Thoughts:**  
+
+- GitHubs stated mission is "Empowering developers to build better software, faster." and that is just what Copilot enables developers to do  
+- So the real question isn’t whether AI saves time — it’s how we reinvest the time it saves.  
 
 **Additional talking points:**
 
-- Connect back to GitHub’s mission: empowering developers to build better software, faster.  
 - Invite discussion: “How do you see AI fitting into your workflows?”  
-- End with the meta-example: “This very presentation was built with Copilot and published using GitHub Pages—that’s AI productivity in action.”  
 
 ---
