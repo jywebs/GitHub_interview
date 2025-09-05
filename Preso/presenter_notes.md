@@ -49,7 +49,7 @@ A GitHub study found developers completed coding tasks about **55% faster** with
 
 **Key Point:** AI isn’t just saving time—it’s changing *where* that time gets invested.  
 
-**Source:** GitHub Copilot study (arXiv: 2302.06590)  
+**Source:** GitHub Copilot study [arXiv: 2302.06590](https://arxiv.org/abs/2302.06590)  
 
 **Additional talking points:**
 - Reinforce “time saved vs. time reinvested” theme.  
