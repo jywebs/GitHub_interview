@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>How AI Tools Improve Productivity in Development Workflows</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Impress.js -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/js/impress.min.js" as="script">
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#161b22;       /* GitHub-ish dark */
+      --muted:#57606a;
+      --accent:#0366d6;     /* GitHub blue */
+      --panel:#f6f8fa;
+    }
+    html,body{height:100%; background:var(--bg); color:var(--text); font:16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; margin:0;}
+    .hint{position:fixed; left:1rem; bottom:1rem; color:var(--muted); font-size:14px;}
+    a{color:var(--accent); text-decoration:none;}
+    .logo{position:fixed; top:1rem; left:1rem; height:36px; opacity:.9}
+    .step{width:1100px; padding:48px 56px; border-radius:16px; background:var(--panel); box-shadow:0 8px 40px rgba(0,0,0,.08);}
+    h1,h2{margin:.2em 0 .4em; line-height:1.15}
+    h1{font-size:56px}
+    h2{font-size:40px}
+    p.lead{font-size:20px; color:var(--muted)}
+    ul{font-size:28px; margin:.4em 0 0 1.2em}
+    li{margin:.2em 0}
+    .row{display:flex; gap:28px; align-items:center; flex-wrap:wrap}
+    .icon-row{display:flex; gap:40px; justify-content:center; margin-top:10px}
+    .icon{height:100px; object-fit:contain}
+    .center{display:flex; justify-content:center; align-items:center}
+    .caps{letter-spacing:.04em; text-transform:uppercase; color:var(--muted); font-size:13px}
+    .foot{position:fixed; right:1rem; bottom:1rem; color:var(--muted); font-size:13px}
+  </style>
+</head>
+<body>
+
+  <!-- Optional logo -->
+  <img class="logo" alt="GitHub" src="assets/GitHub_logo.png" />
+
+  <div id="impress">
+
+    <!-- Slide 1: Title -->
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="1">
+      <div class="caps">Presentation</div>
+      <h1>How AI Tools Improve Productivity<br>in Development Workflows</h1>
+      <p class="lead">A focused story: personal experience → industry impact → guardrails → what’s next.</p>
+    </div>
+
+    <!-- Slide 2: My Experience with Copilot -->
+    <div id="experience" class="step" data-x="1400" data-y="0" data-scale="1">
+      <div class="caps">Personal example</div>
+      <h2>My Experience with Copilot</h2>
+      <ul>
+        <li>Started from a PRD and GitHub Issues to give context</li>
+        <li>Copilot scaffolded the project, then generated unit tests</li>
+        <li>Also created the Dockerfile and Actions workflow</li>
+        <li>Hours saved were reinvested into higher-value work</li>
+      </ul>
+    </div>
+
+    <!-- Slide 3: Strategic Impact (merge evidence + outcomes) -->
+    <div id="impact" class="step" data-x="2800" data-y="0" data-scale="1">
+      <div class="caps">Why it matters</div>
+      <h2>Strategic Impact</h2>
+      <ul>
+        <li>Faster delivery of features customers need</li>
+        <li>Stronger resilience via better test coverage</li>
+        <li>Better developer experience and retention</li>
+      </ul>
+      <div class="icon-row">
+        <!-- Optionally replace with your earlier charts/images -->
+        <img class="icon" src="assets/slide3_time.png" alt="Faster delivery" onerror="this.style.display='none'">
+        <img class="icon" src="assets/slide3_shield.png" alt="Resilience" onerror="this.style.display='none'">
+        <img class="icon" src="assets/slide3_dev.png" alt="Developer experience" onerror="this.style.display='none'">
+      </div>
+      <p class="lead">Framing: AI removes friction so teams focus on higher-value work.</p>
+    </div>
+
+    <!-- Slide 4: Guardrails & Oversight -->
+    <div id="guardrails" class="step" data-x="4200" data-y="0" data-scale="1">
+      <div class="caps">Balance</div>
+      <h2>Guardrails & Oversight</h2>
+      <ul>
+        <li>Validate AI outputs against team standards</li>
+        <li>Prevent inconsistency and tech debt with reviews and tests</li>
+        <li>Build trust with human-in-the-loop and clear usage guidelines</li>
+      </ul>
+      <div class="center" style="margin-top:14px">
+        <img class="icon" style="height:160px" src="assets/slide4_guardrails-triangle.png" alt="Quality · Maintainability · Trust">
+      </div>
+    </div>
+
+    <!-- Slide 5: Looking Ahead / Closing -->
+    <div id="closing" class="step" data-x="5600" data-y="0" data-scale="1">
+      <div class="caps">Closing</div>
+      <h2>Looking Ahead</h2>
+      <ul>
+        <li>Human + AI partnership</li>
+        <li>Productivity gains today</li>
+        <li>Strategic gains tomorrow</li>
+      </ul>
+      <div class="center" style="margin-top:14px">
+        <img class="icon" style="height:160px" src="assets/slide5_final.png" alt="Human and AI partnership">
+      </div>
+      <p class="lead">The real question is how we reinvest the time AI saves.</p>
+    </div>
+
+  </div>
+
+  <div class="hint">Use space or arrow keys</div>
+  <div class="foot">Built with <a href="https://impress.js.org/">impress.js</a></div>
+
+  <script src="https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/js/impress.min.js"></script>
+  <script>impress().init();</script>
+</body>
+</html>
