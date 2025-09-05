@@ -53,11 +53,12 @@ A GitHub study found developers completed coding tasks about **55% faster** with
 
 **For customers, this means:**
 
-- **Faster delivery** of features they need.  
-- **Stronger resilience** through better testing coverage.  
-- **Better developer experience** which translates into higher morale and retention.  
+- **Faster delivery** - Features are often promissed quickly by sales and marketing but slow to deliever. Use of tools like Copilot help to reduce that time to release by reducing the toil part of development  
+- **Reduction in technical debit** - No one likes talking about it but technical debit is real. Using thinks tools like Copilot Agent to help resolve low impact high frequency issues helps to improve overall job satification  
+- **Stronger resilience** - Utilizing AI to help build and impliment test cases enables better testing coverage. Helping to resolve potential issues before they are pushed to production  
+- **Better developer experience** - Overall this translates into higher morale and retention of talent GitHub's customers fight so hard to recruit.  
 
-**Key Points:** 
+**Key Points:**  
 
 - These impacts are not just to the developers but to the business as a whole
 - AI isn’t just saving time—it’s changing *where* that time gets invested  
