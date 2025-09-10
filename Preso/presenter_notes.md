@@ -79,19 +79,33 @@ A GitHub study found developers completed coding tasks about **55% faster** with
 
 AI is powerful, but it isn’t perfect. Left unchecked, it can introduce risks that outweigh the productivity gains. Oversight really matters in three areas:  
 
-1. **Code Quality & Standards**  
-   AI code may look correct but fail to align with team conventions, security practices, or performance requirements.  
-   *In my project, I validated Copilot’s workflow suggestions against CI/CD standards to ensure consistency and avoid rework.*  
+1.**Code Quality & Standards**  
 
-2. **Long-Term Maintainability**  
-   Accepting AI output blindly risks building “vibe code”—works now, but harder to maintain, debug, and scale.  
-   Guardrails like peer reviews, automated testing, and linting keep quality high.  
+- **Risk:** AI code can look correct but fail to meet conventions, security practices, or performance requirements.
+- **Feature:** Copilot Chat with Reasoning explains why suggestions are made.
+- **Benefit:** Developers can validate logic, enforce standards, and prevent low-quality code from slipping through.
 
-3. **Customer Trust**  
-   Enterprises want speed, but not at the cost of reliability.  
-   Human-in-the-loop reviews, security scanning, and usage guidelines reassure customers that AI is an enhancer, not a liability.  
+2.**Long-Term Maintainability**
 
-**Lesson:** AI accelerates the work, but oversight turns acceleration into sustainable progress. That’s what builds confidence in both the tool and the outcomes.  
+- **Risk:** Blindly accepting AI output risks “vibe code” that works today but creates technical debt tomorrow.
+- **Feature:** Recent Copilot intergration with IntelliSense ensures AI suggestions align with IDE-native checks.
+- **Benefit:** Teams get consistent, maintainable code that scales without hidden rework.
+
+3.**Governance & Compliance**  
+
+- **Risk:** Without standard prompts, teams risk inconsistency, compliance gaps, or style drift.
+- **Feature:** Custom Instructions and Prompt Files allow reusable, policy-aligned prompts.
+- **Benefit:** Teams embed governance into workflows, ensuring compliance and consistency across projects.
+
+4.**Trust & Adoption**
+
+- **Risk:** Without oversight, AI tools may erode confidence among developers and customers.
+- **Feature:** Human-in-the-loop reviews and security scanning keep people in control.
+- **Benefit:** Builds organizational trust that AI accelerates progress without compromising reliability
+
+**Lesson:**  
+
+- AI accelerates the work, but oversight turns acceleration into sustainable progress. That’s what builds confidence in both the tool and the outcomes.  
 
 **Additional talking points:**
 
