@@ -1,20 +1,21 @@
-Technical Interview – Q1 Email-Style Answer
+# Technical Interview – Q1 Email-Style Answer
+
 ---
 
-**Subject**: Trunk-Based vs Git Flow Development Recommendation 
+**Subject**: Trunk-Based vs Git Flow Development Recommendation  
 
 Hi `<Name>`,
 
-**Short answer:** choose **Trunk-based Development (TBD)** as the organization default. It optimizes for flow, faster feedback, and lower merge risk. Keep a lightweight release branch when you need stabilization or hotfixes. Use Gitflow only if you ship infrequent, versioned releases to external customers where parallel maintenance of many versions is required.
+Since you want to standardize on a single branching strategy, based on the information you have given the recommendation would be choosing Trunk-based Development (TBD) as your organization’s default methodology. TBD optimizes for flow, faster development cycles, and lower merge risk because the number of changes within a PR is minimized. I also recommend keeping a lightweight release branch when you need stabilization or hotfixes outside of your normal sprints. As you are already aware, Gitflow can be used for separate projects, but only if you ship infrequent, versioned releases to external customers where parallel maintenance of multiple versions is required.
 
 ---
 
 ## Why TBD Wins for Most Teams
 
-- Smaller batches and frequent integration reduce merge debt and rework.  
+- Smaller batches and frequent itterations reduce merge debt and rework.  
 - CI runs on every change, so defects surface earlier and are cheaper to fix.  
 - Simpler branch model improves contributor onboarding and cross-team collaboration.  
-- Aligns with modern DevOps practices and DORA metrics that favor fast lead time and high deployment frequency.  
+- Aligns with modern DevOps practices and DevOps Research and Assessment (DORA) metrics that favor fast lead time and high deployment frequency.  
 
 ---
 
@@ -30,6 +31,8 @@ Hi `<Name>`,
 
 - **Pick TBD** if most of these are true: you deploy often, value fast feedback, have strong automated tests, rely on feature flags for incomplete work, and want fewer merge conflicts.  
 - **Consider Gitflow** if most are true: you release quarterly or less, must harden on a release branch, support many customer versions at once, and have change-control gates that cannot run on main.  
+
+_I can provide you with a basic survey that you can utilize to determine if there are any projects or organizations within your enterprise that would be better served with a Git Flow strategy._
 
 ---
 
@@ -75,12 +78,20 @@ Hi `<Name>`,
 
 ---
 
+### Additional Recommendations to consider
+
+- **Process documentation:** Document branching expectations, CI/CD requirements, and release procedures in `CONTRIBUTING.md`. This ensures new contributors follow the model consistently.  
+- **Workflow templates:** Provide reusable GitHub Actions workflows (build, test, lint, security scan) as templates for all repos.  
+- **Reusable workflows:** Centralize common pipelines in a single repo so teams inherit best practices automatically.  
+- **Observability & quality:** Require tests, security scans, and lint checks as part of the Actions workflow, with results surfaced in PRs.  
+
+---
+
 ## Bottom Line
-Make **Trunk-based Development** the standard, with a pragmatic escape hatch for short-lived release branches. This gives Team B no change, and gives Team A a simpler, faster model with better quality signals.
 
-If helpful, I can share a default GitHub repo template that bakes in the protections, merge queue, CODEOWNERS, Actions workflows, and a sample release policy.
+Making Trunk-based Development (TBD) the standard, with a flexible option for short-lived release branches. This gives Team B no change, and gives Team A a simpler, faster model with better quality signals.
 
-I would be happy to meet with you to discuss these points in detail, answer any questions you may have, and help create a project plan for this.
+I would be happy to meet with you to discuss these points in detail, answer any questions you may have, and help create a project plan template for this.
 
 ---
 
