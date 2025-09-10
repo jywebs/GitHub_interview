@@ -37,7 +37,9 @@ I found out that Copilot gave me three things quickly that used to take me hours
 
 As I experimented more, I realized it could also help solve issues I documented in my repo (**espically in agent mode**). I did find that the better the issue was documented the better the resulting fix was. Honestly, it made me wish I had Copilot next to me on those 3 a.m. pager calls when a hotfix was needed 20 minutes ago.  
 
-**Takeaway:** Copilot isn’t replacing developers — it’s more like a sidecar, giving developers leverage while allowing them to keep our hands on the wheel.  
+**Takeaway:** 
+
+- Copilot isn’t replacing developers — it’s more like a sidecar, giving developers leverage while allowing them to keep our hands on the wheel.  
 
 **Additional talking points:**
 
@@ -53,10 +55,10 @@ A GitHub study found developers completed coding tasks about **55% faster** with
 
 **For customers, this means:**
 
-- **Faster delivery** - Features are often promissed quickly by sales and marketing but slow to deliever. Use of tools like Copilot help to reduce that time to release by reducing the toil part of development  
-- **Reduction in technical debit** - No one likes talking about it but technical debit is real. Using thinks tools like Copilot Agent to help resolve low impact high frequency issues helps to improve overall job satification  
+- **Faster delivery** - Sales and marketing often promise features quickly, but delivery lags because of repetitive developer toil. Tools like Copilot help close that gap by reducing setup and boilerplate. For example, inline code completion via comments lets developers describe what they want and immediately generate relevant code. That means less time switching contexts and more time getting working features out the door.
+- **Reduction in technical debit** - No one likes talking about it, but technical debt is real. Copilot now includes an AI coding agent that can handle routine refactoring tasks in parallel with feature work. Things like improving test coverage, swapping dependencies, standardizing code patterns, optimizing loading behaviors, and identifying dead code. It works asynchronously, raising pull requests based on assigned GitHub Issues. Developers stay in control, but repetitive debt cleanup runs continuously in the background. This lets teams chip away at debt without disrupting sprint commitments—turning what used to be a labor intensive effort into a continuous improvement loop.
 - **Stronger resilience** - Utilizing AI to help build and impliment test cases enables better testing coverage. Helping to resolve potential issues before they are pushed to production  
-- **Better developer experience** - Overall this translates into higher morale and retention of talent GitHub's customers fight so hard to recruit.  
+- **Better developer experience** - Overall this translates into higher morale and retention of talent that GitHub's customers fight so hard to recruit.  
 
 **Key Points:**  
 
