@@ -68,12 +68,6 @@ A GitHub study found developers completed coding tasks about **55% faster** with
 
 **Source:** GitHub Copilot study [arXiv: 2302.06590](https://arxiv.org/abs/2302.06590)  
 
-**Additional talking points:**
-
-- Reinforce “time saved vs. time reinvested” theme.  
-- If pressed for metrics: Reference [Atlassian recent study](https://www.techradar.com/pro/ai-is-helping-developers-save-time-but-the-struggle-to-find-timely-information-is-costing-businesses-millions) and [Microsoft 2025 Study](https://www.itpro.com/software/development/microsoft-claims-ai-is-augmenting-developers-rather-than-replacing-them) studies showing ~10 hours saved per developer per week.  
-- Tie to customer impact: “This isn’t just a developer story—it’s a business story.”
-
 ---
 
 ## Slide 4: Guardrails & Oversight
@@ -140,5 +134,23 @@ As I look ahead, I don’t see AI replacing developers — I see it **elevating*
 - **Invite discussion:** - I’d love to hear your thoughts — how do you see AI fitting into your own workflows, and where do you think it could remove friction for your teams?  
 
 **THANK YOU** and I invite a lively discussion.  
+
+---
+
+### Additional research
+
+- [5-7 most significant features and improvements from GitHub Copilot's most recent official changelogs](https://github.com/copilot/share/0a1b11aa-42e0-8453-9042-b449404b0015)
+- If pressed for metrics: Reference [Atlassian recent study](https://www.techradar.com/pro/ai-is-helping-developers-save-time-but-the-struggle-to-find-timely-information-is-costing-businesses-millions) and [Microsoft 2025 Study](https://www.itpro.com/software/development/microsoft-claims-ai-is-augmenting-developers-rather-than-replacing-them) studies showing ~10 hours saved per developer per week.  
+- GitHub Copilot study [arXiv: 2302.06590](https://arxiv.org/abs/2302.06590)  
+- [Copilot Codespaces Demo](https://github.com/github/copilot-codespaces-demo)
+- [Which GitHub Copilot Feature Is Right for Your Use case?](https://dev.to/sandeepscet/which-github-copilot-feature-is-right-for-your-use-case-2ma8)
+- [Top 5 GitHub Copilot Features in Visual Studio from Microsoft Ignite 2024](https://devblogs.microsoft.com/visualstudio/top-5-github-copilot-features-in-visual-studio-from-microsoft-ignite-2024/)
+- [Youtube (TechRill) GitHub Copilot July 2025 Update 🚀 | 5 Powerful Features You Shouldn’t Miss!](https://youtu.be/nvZ3I6kZNlM)
+
+### Additional Training planned
+
+- [GitHub Foundations](https://learn.microsoft.com/en-us/collections/o1njfe825p602p)
+- [GitHub Copilot Fundamentals Part 1](https://learn.microsoft.com/en-us/training/paths/copilot/)
+- [GitHub Copilot Fundamentals Part 2](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/)
 
 ---
