@@ -146,6 +146,7 @@ As I look ahead, I don’t see AI replacing developers — I see it **elevating*
 - [Which GitHub Copilot Feature Is Right for Your Use case?](https://dev.to/sandeepscet/which-github-copilot-feature-is-right-for-your-use-case-2ma8)
 - [Top 5 GitHub Copilot Features in Visual Studio from Microsoft Ignite 2024](https://devblogs.microsoft.com/visualstudio/top-5-github-copilot-features-in-visual-studio-from-microsoft-ignite-2024/)
 - [Youtube (TechRill) GitHub Copilot July 2025 Update 🚀 | 5 Powerful Features You Shouldn’t Miss!](https://youtu.be/nvZ3I6kZNlM)
+- [Vibe coding with GitHub Copilot: Agent mode and MCP support rolling out to all VS Code users](https://github.blog/news-insights/product-news/github-copilot-agent-mode-activated/)
 
 ### Additional Training planned
 
